@@ -1,0 +1,12 @@
+supportedLocales: [
+        Locale('en', 'UK'),
+        Locale('swa', 'KE'),
+      ],
+      localizationsDelegates: [
+        //Built in widgets localization for material widgets
+        GlobalMaterialLocalizations.delegate,
+        //Built in widgets localization for text direction LTR/RTL
+        GlobalWidgetsLocalizations.delegate
+        //Class whi
+        //AppLocalizations.delegate,
+      ],
